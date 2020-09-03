@@ -1,0 +1,18 @@
+{
+    "name": "phonechecker/phonechecker-php",
+    "type": "library",
+    "description": "The Official PHP library for PhoneChecker",
+    "keywords": ["phonechecker","phonechecker php", "php phone validation"],
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phonechecker\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
