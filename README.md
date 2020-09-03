@@ -16,7 +16,7 @@ Now you can start validating your numbers:
 require 'vendor/autoload.php';
 
 // get the Phonechecker Client instance, replace with your project token
-$phoneCheckerClient = new Client("PHONECHECKER_TOKEN");
+$phoneCheckerClient = new Phonechecker\Client("PHONECHECKER_TOKEN");
 
 // validate a number
 $phoneCheckerClient->validationSyntax("55", "11", "934748118"); 
